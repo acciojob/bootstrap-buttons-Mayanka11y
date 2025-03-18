@@ -1,2 +1,54 @@
 
 /* Your CSS Code here. */
+/* Custom CSS for buttons */
+.custom-btn {
+    margin: 5px; /* Add some spacing between buttons */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for all buttons */
+.custom-btn:hover {
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    opacity: 0.9; /* Reduce opacity on hover */
+}
+
+/* Custom style for Button 1 (Primary) */
+#button-1 {
+    border-radius: 20px; /* Rounded corners */
+}
+
+/* Custom style for Button 2 (Outline Secondary) */
+#button-2 {
+    border: 2px solid #6c757d; /* Thicker border */
+}
+
+/* Custom style for Button 3 (Success Large) */
+#button-3 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow */
+}
+
+/* Custom style for Button 4 (Danger Small) */
+#button-4 {
+    font-weight: bold; /* Bold text */
+}
+
+/* Custom style for Button 5 (Warning Full Width) */
+#button-5 {
+    background-color: #ffc107; /* Override Bootstrap's warning color */
+    color: #000; /* Black text */
+}
+
+/* Custom style for Button 6 (Disabled Info) */
+#button-6 {
+    cursor: not-allowed; /* Change cursor for disabled button */
+}
+
+/* Custom style for Button 7 (Light) */
+#button-7 {
+    border: 1px solid #ddd; /* Add a border */
+}
+
+/* Custom style for Button 8 (Link) */
+#button-8 {
+    text-decoration: underline; /* Underline text */
+}
